@@ -47,6 +47,7 @@ cm_figure = create_coefficient_figure(
 
 webapp.app_layout(app, cl_figure, cd_figure, cm_figure)
 webapp.register_callbacks(app, default_geometry, default_solver)
+server = app.server
 
 if __name__ == '__main__':
     app.run_server(debug=False)
