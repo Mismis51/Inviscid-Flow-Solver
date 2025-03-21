@@ -2,4 +2,4 @@ dash==2.18.2
 matplotlib==3.5.3
 numpy==1.23.3
 plotly==6.0.0
-scipy==1.23.3
+scipy==1.13.1
