@@ -49,4 +49,4 @@ webapp.app_layout(app, cl_figure, cd_figure, cm_figure)
 webapp.register_callbacks(app, default_geometry, default_solver)
 
 if __name__ == '__main__':
-    app.run_server(debug=True, host="0.0.0.0")
+    app.run_server(debug=False)
